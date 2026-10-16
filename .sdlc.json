@@ -1,0 +1,8 @@
+{
+  "name": "pet-rap-sheet",
+  "baseBranch": "main",
+  "checks": [{ "name": "check", "run": ["bash", "scripts/check.sh"], "timeoutSec": 900 }],
+  "sensitivePaths": [".sdlc.json", "scripts/", "app/src/main/AndroidManifest.xml", "gradle/"],
+  "autoMerge": true,
+  "privateRemote": null
+}

@@ -1,0 +1,41 @@
+# Gradle / build outputs
+.gradle/
+.kotlin/
+build/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+.externalNativeBuild/
+.cxx/
+
+# Local machine config
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Signing material: never commit
+*.jks
+*.keystore
+*.p12
+*.pk8
+keystore.properties
+signing.properties
+
+# Roborazzi verify/compare artifacts (references themselves are committed)
+*_compare.png
+*_actual.png
+app/src/test/screenshots/*.json
+
+# Emulator smoke-test evidence
+smoke/
+
+# JVM crash artifacts
+hs_err_pid*.log
+replay_pid*.log
+core.*
+
+# Local-only product brief
+docs/BRIEF.md

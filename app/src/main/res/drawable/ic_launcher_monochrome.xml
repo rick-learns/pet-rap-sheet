@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Placard outline -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M30,29 h48 a5,5 0 0 1 5,5 v40 a5,5 0 0 1 -5,5 h-48 a5,5 0 0 1 -5,-5 v-40 a5,5 0 0 1 5,-5 z" />
+
+    <!-- Placard header line -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M28.5,40.5 h51" />
+
+    <!-- Placard header agency bar -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M43,36 h22" />
+
+    <!-- Main palm pad of the paw print -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,63 C49.5,63 45,61.8 45,58 C45,55 48,53.2 50.8,53 C52.5,52.8 53.4,54.2 54,54.2 C54.6,54.2 55.5,52.8 57.2,53 C60,53.2 63,55 63,58 C63,61.8 58.5,63 54,63 Z" />
+
+    <!-- Toe 1: outer left -->
+    <group
+        android:pivotX="43.5"
+        android:pivotY="48"
+        android:rotation="-24">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M43.5,45 C44.8,45 45.8,46.3 45.8,48 C45.8,49.7 44.8,51 43.5,51 C42.2,51 41.2,49.7 41.2,48 C41.2,46.3 42.2,45 43.5,45 Z" />
+    </group>
+
+    <!-- Toe 2: inner left -->
+    <group
+        android:pivotX="49.5"
+        android:pivotY="44"
+        android:rotation="-8">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M49.5,40.8 C51,40.8 52,42.2 52,44 C52,45.8 51,47.2 49.5,47.2 C48,47.2 47,45.8 47,44 C47,42.2 48,40.8 49.5,40.8 Z" />
+    </group>
+
+    <!-- Toe 3: inner right -->
+    <group
+        android:pivotX="58.5"
+        android:pivotY="44"
+        android:rotation="8">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M58.5,40.8 C60,40.8 61,42.2 61,44 C61,45.8 60,47.2 58.5,47.2 C57,47.2 56,45.8 56,44 C56,42.2 57,40.8 58.5,40.8 Z" />
+    </group>
+
+    <!-- Toe 4: outer right -->
+    <group
+        android:pivotX="64.5"
+        android:pivotY="48"
+        android:rotation="24">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M64.5,45 C65.8,45 66.8,46.3 66.8,48 C66.8,49.7 65.8,51 64.5,51 C63.2,51 62.2,49.7 62.2,48 C62.2,46.3 63.2,45 64.5,45 Z" />
+    </group>
+
+    <!-- Booking placard ID line below paw -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M39,67.5 h30" />
+
+    <!-- Booking placard secondary line -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M44,71 h20" />
+
+</vector>

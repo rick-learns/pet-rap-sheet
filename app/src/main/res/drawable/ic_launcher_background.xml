@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Paper background wall -->
+    <path
+        android:fillColor="#F3EDDD"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Mugshot height chart horizontal measurement lines -->
+    <!-- Faint lines -->
+    <path
+        android:strokeColor="#DDD5C0"
+        android:strokeWidth="0.8"
+        android:pathData="M12,20h84 M12,28h84 M12,44h84 M12,52h84 M12,68h84 M12,76h84 M12,92h84" />
+
+    <!-- Major height chart lines -->
+    <path
+        android:strokeColor="#C5BCA5"
+        android:strokeWidth="1.4"
+        android:pathData="M10,36h88 M10,60h88 M10,84h88" />
+
+    <!-- Height chart left gutter ticks (inches) -->
+    <path
+        android:strokeColor="#A89E88"
+        android:strokeWidth="1.2"
+        android:pathData="M10,24h5 M10,32h5 M10,40h5 M10,48h5 M10,56h5 M10,64h5 M10,72h5 M10,80h5 M10,88h5" />
+
+    <!-- Height chart right gutter ticks (cm) -->
+    <path
+        android:strokeColor="#A89E88"
+        android:strokeWidth="1.2"
+        android:pathData="M93,24h5 M93,32h5 M93,40h5 M93,48h5 M93,56h5 M93,64h5 M93,72h5 M93,80h5 M93,88h5" />
+
+</vector>
