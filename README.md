@@ -7,6 +7,18 @@ Pet Rap Sheet is a native Android delight toy: pick a pet photo, enter the suspe
 
 Everything is generated on-device. No accounts, no backend, no analytics, no ads, no cloud sync, and zero internet permissions.
 
+<p align="center">
+  <img src="app/src/test/screenshots/app.petrapsheet.document.MugshotScreenshotTest.mugshot.png" width="32%" alt="Mugshot placard for Biscuit the dog, stamped BOOKED" />
+  <img src="app/src/test/screenshots/app.petrapsheet.document.ChargeSheetScreenshotTest.chargeSheet.png" width="32%" alt="Charge sheet listing three counts, with bail set at 100 crunchy biscuits" />
+  <img src="app/src/test/screenshots/app.petrapsheet.document.CourtSummonsScreenshotTest.courtSummons.png" width="32%" alt="Court summons to the Municipal Court of Domestic Disputes" />
+</p>
+
+<p align="center">
+  <img src="app/src/test/screenshots/app.petrapsheet.ui.ScreensScreenshotTest.filledForm.png" width="30%" alt="Booking desk form with a suspect photo, name, species and alias" />
+  <img src="app/src/test/screenshots/app.petrapsheet.ui.ScreensScreenshotTest.result.png" width="30%" alt="Result screen showing the mugshot with share and save buttons" />
+  <img src="app/src/test/screenshots/app.petrapsheet.document.MugshotScreenshotTest.mugshotPrecinctCameraWithTown.png" width="30%" alt="Grayscale precinct-camera mugshot variant" />
+</p>
+
 ---
 
 ## Architecture & Features
